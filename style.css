@@ -453,3 +453,75 @@ nav ul li a {
     gap: 30px;
   }
 }
+
+/* DESKTOP (1024px para cima) */
+@media (min-width: 1024px) {
+  /* main {
+    margin-top: 150px;
+  } */
+
+  .header-container {
+    padding: 20px 60px;
+  }
+
+  .txt-main h1 {
+    font-size: 2.5rem;
+  }
+
+  .txt-main h2 {
+    font-size: 1.8rem;
+  }
+
+  .txt-main p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+
+  .img-perfil {
+    width: 250px;
+  }
+
+  .img-btn-main button {
+    width: 300px;
+    font-size: 1.1rem;
+  }
+
+  #skills {
+    justify-content: space-evenly;
+    padding: 50px 60px;
+  }
+
+  #skills h3 {
+    font-size: 2rem;
+  }
+
+  #skills li {
+    font-size: 1.2rem;
+  }
+
+  .grid-projetos {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 0 40px;
+  }
+
+  .project-item {
+    padding: 25px;
+  }
+
+  .project-item h3 {
+    font-size: 1.4rem;
+  }
+
+  .titulo-projetos {
+    font-size: 2.2rem;
+  }
+
+  .footer-container {
+    padding: 40px;
+  }
+
+  .footer-container ul li a {
+    font-size: 1.1rem;
+  }
+}
