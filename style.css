@@ -372,8 +372,8 @@ nav ul li a {
 
 /* MEDIA QUERIES PARA TELAS MAIORES */
 
-/* TABLET (768px para cima) */
-@media (min-width: 768px) {
+/* TABLET (860px para cima) */
+@media (min-width: 860px) {
   .header-container {
     flex-direction: row;
     justify-content: space-between;
