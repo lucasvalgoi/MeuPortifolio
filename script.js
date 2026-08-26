@@ -34,3 +34,12 @@ btn.addEventListener('click', () => {
         menu.style.padding = '0px';
     }
 })
+
+// fechar o menu ao clicar em um dos links de navegação
+let menuLinks = document.querySelectorAll('.menu a');
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('ativo');
+        menu.style.padding = '0px';
+    })
+})
