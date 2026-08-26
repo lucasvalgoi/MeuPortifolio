@@ -525,3 +525,54 @@ nav ul li a {
     font-size: 1.1rem;
   }
 }
+
+/* DESKTOP GRANDE (1200px para cima) */
+@media (min-width: 1200px) {
+  /* main {
+    margin-top: 150px;
+  } */
+  .header-container {
+    padding: 20px 80px;
+  }
+
+  .txt-main h1 {
+    font-size: 3rem;
+  }
+
+  .txt-main h2 {
+    font-size: 2rem;
+  }
+
+  .txt-main p {
+    font-size: 1.2rem;
+    width: 85%;
+  }
+
+  .img-perfil {
+    width: 280px;
+  }
+
+  #sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* scroll-margin-top: 150px; */
+  }
+
+  #skills {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* scroll-margin-top: 150px; */
+  }
+
+  /* #projetos {
+    scroll-margin-top: 150px;
+  } */
+
+  /* #contatos {
+  scroll-margin-top: 150px;
+  } */
+
+  .grid-projetos {
+    max-width: 1200px;
+  }
+}
