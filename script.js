@@ -1,3 +1,4 @@
+// chamada da api do github -> criação dos grid de projetos
 document.addEventListener("DOMContentLoaded", function() {
     const userName = "lucasvalgoi"
     fetch(`https://api.github.com/users/${userName}/repos`)
@@ -19,4 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     })
     .catch(error => console.error('Erro ao carregar informações do repositório!', error))
+})
+
+// efeito de aparecer/desaparecer menu do Header ao clicar
+let btn = document.querySelector('.btn-menu');
+let menu = document.querySelector('.menu');
+
+btn.addEventListener('click', () => {
+    let menuAtivo = menu.classList.toggle('ativo');
+    if (menuAtivo) {
+        menu.style.padding = '20px';
+    } else if (!menuAtivo) {
+        menu.style.padding = '0px';
+    }
 })
